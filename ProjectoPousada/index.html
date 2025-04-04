@@ -1,0 +1,175 @@
+<!DOCTYPE html> <!-- Essa tag é para definir o tipo de documento HTML -->
+<html lang="pt-pt"> <!-- Essa tag é para definir o idioma do documento -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Essa tag é para definir o conjunto de caracteres do documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Essa tag é para definir a largura da tela do dispositivo -->
+    <title>Pousada</title> <!-- Essa tag é para definir o título da página -->
+    <link rel="stylesheet" href="styles.css"> <!-- Essa tag é para definir o arquivo CSS -->
+</head>
+
+<body>
+    <div class="rectangulo"> <!-- Essa tag é para definir o retângulo da página -->
+        <div class="Texto"> <!-- Essa tag é para definir o texto da página -->
+            <div class="logo-container"> <!-- Essa tag é para definir o contêiner da logo -->
+                <img class="img" src="img/ROADMAP DEVOP.PNG" alt=""> <!-- Essa tag é para definir a imagem da logo -->
+                <h2>Pousada <br> ENCANTO <br> DA SERRA</h2> <!-- Essa tag é para definir o título da página -->
+            </div>
+            
+            <div class="button"> <!-- Essa tag é para definir o botão da página -->
+                <button>RESERVE AGORA MESMO</button> <!-- Essa tag é para definir o texto do botão -->
+            </div>
+        </div>
+    </div>
+    
+    <div class="titulo"> <!-- Essa tag é para definir o título da página -->
+        <h2>Escolhe a sua suíte</h2> <!-- Essa tag é para definir o título da página -->
+    </div>
+
+    <div class="linha-horizontal"></div> <!-- Essa tag é para definir a linha horizontal da página -->
+
+    <div class="container-suite"> <!-- Essa tag é para definir o contêiner das suítes da página -->
+        <div class="suite1"> <!-- Essa tag é para definir a suíte 1 da página -->
+            
+            <img src="img/imagem_Suite1.jpeg" alt=""> <!-- Essa tag é para definir a imagem da suíte 1 da página -->
+            <p>Suíte Essencial</p> <!-- Essa tag é para definir o título da suíte 1 da página -->
+            <div class="descricao-suite1"> <!-- Essa tag é para definir a descrição da suíte 1 da página -->
+                <p>Conveniência e bem-estar para uma hospedagem confortável, com todas as facilidades indispensáveis.</p> <!-- Essa tag é para definir o texto da descrição da suíte 1 da página -->
+            </div>
+        </div>
+        <div class="suite2"> <!-- Essa tag é para definir a suíte 2 da página -->
+            <img src="img/imagem_SuitePremium.jpeg" alt="">
+            <p>Suíte Premium</p>
+            <div class="descricao-suite2"> <!-- Essa tag é para definir a descrição da suíte 2 da página -->
+                <p>Uma harmonia de elegância e acolhimento, unindo conforto e acabamentos refinados..</p> <!-- Essa tag é para definir o texto da descrição da suíte 2 da página -->
+            </div>
+        </div>
+        <div class="suite3"> <!-- Essa tag é para definir a suíte 3 da página -->
+            <img src="img/imagem_SuiteGrandLuxe.jpeg" alt=""> <!-- Essa tag é para definir a imagem da suíte 3 da página -->
+            <p>Suíte Grand Luxe</p> <!-- Essa tag é para definir o título da suíte 3 da página -->
+            <div class="descricao-suite3"> <!-- Essa tag é para definir a descrição da suíte 3 da página -->
+                <p>Um espaço de luxo e sofisticação, com materiais de alta qualidade e design moderno, ideal para momentos especiais.</p> <!-- Essa tag é para definir o texto da descrição da suíte 3 da página -->
+            </div>
+        </div>
+    </div>
+    <div class="piscina">
+        <img src="img/piscina.jpeg" width="580px" height="400px" alt="">
+        <div class="piscina-content">
+            <h2>Coração da Serra</h2>  
+            <p>Localizada no coração da serra, a Pousada Encanto da Serra é o destino ideal para quem busca tranquilidade, conforto e contato com a natureza. Cercada por paisagens deslumbrantes e um clima acolhedor, nossa pousada combina charme rústico com o aconchego que você merece.</p>
+        </div>
+    </div>
+    <div class="quintal">
+        <img src="img/imagemquintal.jpeg" width="580px" height="400px" alt="">
+        <div class="quintal-content">
+            <h2>Oferecemos Conforto</h2>  
+            <p>Aqui, cada detalhe foi pensado para proporcionar uma experiência única. Oferecemos suítes confortáveis e bem equipadas, um café da manhã caseiro repleto de sabores regionais e uma área externa perfeita para momentos de relaxamento. Desfrute de trilhas ecológicas, redes para descanso, piscina climatizada e um ambiente que convida à desconexão da rotina.</p>
+        </div>
+    </div>
+    <div class="depoimentos">
+        <h2>Depoimentos</h2>
+        <div class="depoimentos-linha"></div>
+        <div class="depoimentos-container">
+            <div class="depoimento-card">
+                <div class="depoimento-header">
+                    <img src="img/depoimento1.jpeg" alt="Foto de Mariana R.">
+                </div>
+                <p class="depoimento-texto">"Uma experiência incrível! O lugar é super aconchegante, perfeito para relaxar. Café da manhã caseiro é um espetáculo, já parte! Com certeza voltarei."</p>
+                <p class="depoimento-autor">Mariana R.</p>
+            </div>
+            <div class="depoimento-card">
+                <div class="depoimento-header">
+                    <img src="img/depoimento2.jpeg" alt="Foto de Lucas M.">
+                </div>
+                <p class="depoimento-texto">"A pousada é um verdadeiro refúgio! Quartos confortáveis, atendimento impecável e uma vista maravilhosa. Passamos dias inesquecíveis aqui!"</p>
+                <p class="depoimento-autor">Lucas M.</p>
+            </div>
+        </div>
+    </div>
+    <div class="reserva">
+        <h2>Faça sua reserva abaixo</h2>
+        <div class="linha-horizontal"></div>
+        <p class="reserva-subtitulo">Reserve um dia conosco e curta a Pousada Encanto da Serra</p>
+        
+        <form class="formulario-reserva">
+            <div class="form-grid">
+                <div class="form-grupo">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" placeholder="Algernira Campos de Oliveira">
+                </div>
+                
+                <div class="form-grupo">
+                    <label for="data-entrada">Data de entrada</label>
+                    <input type="date" id="data-entrada" placeholder="01/01/2025">
+                </div>
+
+                <div class="form-grupo">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="algernira@exemplo.com.br">
+                </div>
+
+                <div class="form-grupo">
+                    <label for="data-saida">Data de saída</label>
+                    <input type="date" id="data-saida" placeholder="01/01/2025">
+                </div>
+
+                <div class="form-grupo">
+                    <label for="telefone">Número de Telefone</label>
+                    <input type="tel" id="telefone" placeholder="(11) 0000-0000">
+                </div>
+
+                <div class="form-grupo">
+                    <label for="pessoas">Quantidade de pessoas</label>
+                    <select id="pessoas">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-reservar">RESERVAR</button>
+        </form>
+    </div>
+
+    <div class="localizacao">
+        <h2>Localização</h2>
+        <div class="linha-horizontal"></div>
+        
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29668.517902245896!2d-45.59033384274459!3d-22.366931016536827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc8fea367744cd%3A0x86ae2fd74cd78c54!2sSerra%20da%20Mantiqueira!5e0!3m2!1spt-BR!2sbr!4v1710195517496!5m2!1spt-BR!2sbr" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <div class="info-container">
+            <div class="info-grupo">
+                <h3>ENDEREÇO</h3>
+                <p>Rua vila bela, n 134, 37139-200, Serra da Mantiqueira, MG.</p>
+            </div>
+
+            <div class="info-grupo">
+                <h3>CONTATOS</h3>
+                <p>Telefone: (00) 9000-0000</p>
+                <p>Whatsapp: (00) 9000-0000</p>
+                <p>E-mail: encantodaserra@gmail.com</p>
+            </div>
+
+            <div class="info-grupo">
+                <h3>REDES SOCIAIS</h3>
+                <div class="redes-sociais">
+                    <a href="#"><img src="img/instagram-icone-novo_1057-2227.avif" alt="Instagram"></a>
+                    <a href="#"><img src="img/twitter-novo-logotipo-2023-x-no-vetor-de-fundo-branco_1017-45422.jpg" alt="Twitter"></a>
+                    <a href="#"><img src="img/facebook.avif" alt="Facebook"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
