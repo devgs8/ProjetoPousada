@@ -30,6 +30,14 @@ body {
     gap: 20px;
 }
 
+.logo-container h2 {
+    margin: 0;
+    text-align: left;
+    font-size: 32px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
 .img {
     width: 104px;
     height: 104px;
@@ -39,23 +47,37 @@ body {
     color: #FFF;
     font-size: 24px;
     line-height: 1.2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Botão */
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 button {
     background-color: #FF4500;
     color: #FFF;
-    padding: 12px 24px;
+    padding: 15px 30px;
     border-radius: 25px;
     border: none;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.button:hover {
-    opacity: 0.8;
+button:hover {
+    background-color: #FF6347;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Títulos e Linhas */
